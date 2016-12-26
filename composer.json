@@ -1,17 +1,8 @@
-"repositories": [
-    {
-        "type":"package",
-        "package": {
-          "name": "my_first_composer/myself",
-          "version":"master",
-          "source": {
-              "url": "https://github.com/dementtor/too_shmall.git",
-              "type": "git",
-              "reference":"master"
-            }
+{
+    "name": "dementtor/too_shmall",
+    "autoload": {
+        "psr-0" : {
+            "\" : "src"
         }
     }
-],
-"require": {
-    "my_first_composer/myself": "master"
 }
