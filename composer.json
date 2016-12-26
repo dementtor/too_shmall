@@ -2,7 +2,7 @@
     "name": "dementtor/too_shmall",
     "autoload": {
         "psr-0" : {
-            "\" : "src"
+            "" : "sites"
         }
     }
 }
